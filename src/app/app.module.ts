@@ -9,11 +9,13 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatInputModule } from "@angular/material/input";
 import { LoginComponent } from './login/login.component';
 import {MatIconModule} from '@angular/material/icon';
+import { SecondComponent } from './second/second.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    SecondComponent
   ],
   imports: [
     BrowserModule,
