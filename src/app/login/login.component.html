@@ -22,7 +22,6 @@
                 [attr.aria-label]="'Hide Password'" [attr.aria-pressed]="hide">
           <mat-icon>{{hide?'visibility_off' : 'visibility'}}</mat-icon>
         </button>
-<!--        <input formControlName="password" matInput [type]="hide ? 'password' : 'text'" required />-->
         <mat-error *ngIf="loginForm.get('password').errors?.required">
           Required password
         </mat-error>
